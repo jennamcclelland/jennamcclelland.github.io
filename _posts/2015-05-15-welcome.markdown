@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: essay
 title:  "Welcome!"
 date:   2015-05-15 21:17:23
-category: essay
+category: essays
 tags: [me]
 ---
 

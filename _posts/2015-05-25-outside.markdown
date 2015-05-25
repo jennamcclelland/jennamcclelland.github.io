@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: photo
 title:  "Outside"
+link: "/assets/photos/outside.jpg"
 date:   2015-05-25
-category: photo
+category: photography
 tags: [outside]
 ---
 
-![Outside](/assets/photos/outside.jpg)
+Talk about the photo here

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: poem
 title:  "Internet"
 date:   2015-05-25
-category: poem
+category: poetry
 tags: [Internet]
 ---
 

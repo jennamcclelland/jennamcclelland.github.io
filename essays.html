@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Essays
+permalink: /essays/
 ---
 
 <div class="home">
@@ -8,12 +9,12 @@ title: Essays
   <h1 class="page-heading">Essays</h1>
 
   <ul class="post-list">
-    {% for post in site.categories.essay %}
+    {% for essay in site.categories.essays %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ essay.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ essay.url | prepend: site.baseurl }}">{{ essay.title }}</a>
         </h2>
       </li>
     {% endfor %}

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Poetry
+permalink: /poetry/
 ---
 
 <div class="home">
@@ -8,12 +9,12 @@ title: Poetry
   <h1 class="page-heading">Poetry</h1>
 
   <ul class="post-list">
-    {% for post in site.categories.poem %}
+    {% for poem in site.categories.poetry %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ poem.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a>
         </h2>
       </li>
     {% endfor %}

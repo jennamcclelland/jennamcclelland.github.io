@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Photography
+permalink: /photography/
 ---
 
 <div class="home">
@@ -8,12 +9,12 @@ title: Photography
   <h1 class="page-heading">Photography</h1>
 
   <ul class="post-list">
-    {% for post in site.categories.photo %}
+    {% for photo in site.categories.photography %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ photo.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ photo.url | prepend: site.baseurl }}">{{ photo.title }}</a>
         </h2>
       </li>
     {% endfor %}
