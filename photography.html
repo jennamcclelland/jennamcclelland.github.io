@@ -4,7 +4,7 @@ title: Photography
 permalink: /photography/
 ---
 
-<div class="home">
+<div class="photography">
 
   <h1 class="page-heading">Photography</h1>
 
@@ -13,9 +13,9 @@ permalink: /photography/
       <li>
         <span class="post-meta">{{ photo.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h3>
           <a class="post-link" href="{{ photo.url | prepend: site.baseurl }}">{{ photo.title }}</a>
-        </h2>
+        </h3>
       </li>
     {% endfor %}
   </ul>

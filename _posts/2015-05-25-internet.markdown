@@ -3,7 +3,6 @@ layout: poem
 title:  "Internet"
 date:   2015-05-25
 category: poetry
-tags: [Internet]
 ---
 
 The Internet Shows

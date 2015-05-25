@@ -23,6 +23,9 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+html, body {
+    height: 100%;
+}
 
 
 /**
@@ -81,6 +84,41 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+    color: $brand-color-alt;
+}
+
+
+h1 {
+    font-size: 42px;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+
+h2 {
+    font-size: 32px;
+
+    @include media-query($on-laptop) {
+        font-size: 28px;
+    }
+}
+
+h3 {
+    font-size: 26px;
+
+    @include media-query($on-laptop) {
+        font-size: 22px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+        font-size: 18px;
+    }
 }
 
 
@@ -89,15 +127,14 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $link-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $link-color-dark;
     }
 
     &:hover {
-        color: $text-color;
         text-decoration: underline;
     }
 }

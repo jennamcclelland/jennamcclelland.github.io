@@ -1,7 +1,12 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
+    <a target="_blank" href="mailto:{{ site.email }}">
+        email me
+    </a> |
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+        subscribe via RSS
+    </a>
   </div>
 
 </footer>

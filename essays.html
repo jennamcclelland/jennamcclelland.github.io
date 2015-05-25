@@ -4,7 +4,7 @@ title: Essays
 permalink: /essays/
 ---
 
-<div class="home">
+<div class="essays">
 
   <h1 class="page-heading">Essays</h1>
 
@@ -13,9 +13,9 @@ permalink: /essays/
       <li>
         <span class="post-meta">{{ essay.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h3>
           <a class="post-link" href="{{ essay.url | prepend: site.baseurl }}">{{ essay.title }}</a>
-        </h2>
+        </h3>
       </li>
     {% endfor %}
   </ul>

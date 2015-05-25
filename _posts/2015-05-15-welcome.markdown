@@ -1,9 +1,8 @@
 ---
 layout: essay
 title:  "Welcome!"
-date:   2015-05-15 21:17:23
+date:   2015-05-15
 category: essays
-tags: [me]
 ---
 
 Hello world! My name is Jenna McClelland and this is my site, where you can

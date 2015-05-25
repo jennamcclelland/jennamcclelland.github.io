@@ -1,0 +1,9 @@
+---
+layout: essay
+title:  "Update"
+date:   2015-05-25
+category: essays
+---
+
+I've added my second essay here. This is to help me figure out what the site
+will look like
