@@ -154,6 +154,10 @@
  */
 .home {
     margin: 2*$spacing-unit 0;
+
+    img {
+        margin-bottom: $spacing-unit;
+    }
 }
 
 .poem {
