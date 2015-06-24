@@ -6,23 +6,25 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Inconsolata, monospace;
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$alt-font-family: 'Playfair Display', serif;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #ffffff;
 
-$brand-color:      #f1c40f;
+$brand-color:      #88729e;
 $brand-color-dark: darken($brand-color, 5%);
 
-$brand-color-alt:  #34495e;
+$brand-color-alt:  #b61252;
 
-$link-color:       #3498db;
-$link-color-dark:  darken($link-color, 15%);
+$link-color:       $brand-color;
+$link-color-dark:  $brand-color-dark;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

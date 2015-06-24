@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Jenna McClelland's collection of work and thoughts
 baseurl: ""
 url: "http://jennamcclelland.com"
+tumblr: "http://commun1stdaughter.tumblr.com/"
 
 # Build settings
 markdown: kramdown
