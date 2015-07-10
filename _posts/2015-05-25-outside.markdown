@@ -1,9 +1,0 @@
----
-layout: photo
-title:  "Outside"
-date:   2015-05-25
-category: photography
----
-
-![Outside](/assets/photos/outside.jpg)
-Talk about the photo here

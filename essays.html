@@ -17,6 +17,10 @@ permalink: /essays/
           <a class="post-link" href="{{ essay.url | prepend: site.baseurl }}">{{ essay.title }}</a>
         </h3>
       </li>
+    {% else %}
+      <li>
+        Coming soon...
+      </li>
     {% endfor %}
   </ul>
 

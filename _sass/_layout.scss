@@ -127,6 +127,14 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+
+    .post-tag {
+        color: white;
+        background-color: $brand-color;
+          margin: 5px;
+          padding: 2px 5px;
+          border-radius: 2px;
+    }
 }
 
 .post-link {
@@ -153,7 +161,7 @@
  * Pages
  */
 .home {
-    margin: 2*$spacing-unit 0;
+    margin: $spacing-unit 0;
 
     img {
         margin-bottom: $spacing-unit;
@@ -164,6 +172,14 @@
     text-align: center;
 }
 
-.photo {
+.photography {
     text-align: center;
+
+    p {
+        padding: $spacing-unit 0;
+
+        img {
+            margin-bottom: $spacing-unit/2;
+        }
+    }
 }

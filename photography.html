@@ -17,6 +17,10 @@ permalink: /photography/
           <a class="post-link" href="{{ photo.url | prepend: site.baseurl }}">{{ photo.title }}</a>
         </h3>
       </li>
+    {% else %}
+      <li>
+        Coming soon...
+      </li>
     {% endfor %}
   </ul>
 
