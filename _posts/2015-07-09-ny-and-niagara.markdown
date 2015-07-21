@@ -15,9 +15,6 @@ Central Perks
 ![83840021](https://googledrive.com/host/0B9DL4N779pZbflhIRVRLLTFvRGFIYUM5SkZOVjdFWnBuanV3QnV2aFRKbUhGSzdRb0JOeGM/83840021.jpg)
 83840021
 
-![Me](https://googledrive.com/host/0B9DL4N779pZbflhIRVRLLTFvRGFIYUM5SkZOVjdFWnBuanV3QnV2aFRKbUhGSzdRb0JOeGM/me.jpg)
-Grand Central
-
 ![Me 2](https://googledrive.com/host/0B9DL4N779pZbflhIRVRLLTFvRGFIYUM5SkZOVjdFWnBuanV3QnV2aFRKbUhGSzdRb0JOeGM/me-2.jpg)
 Me 2
 
