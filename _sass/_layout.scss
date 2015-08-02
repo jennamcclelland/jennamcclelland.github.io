@@ -168,6 +168,25 @@
     }
 }
 
+.about {
+    .about-top {
+        padding: $spacing-unit 0;
+
+        .quote {
+            margin: 0;
+        }
+        .quote-source {
+            text-align: right;
+            font-size: $small-font-size;
+            color: $grey-color;
+        }
+    }
+
+    .about-bottom {
+        padding: $spacing-unit 0;
+    }
+}
+
 .poem {
     text-align: center;
 }
