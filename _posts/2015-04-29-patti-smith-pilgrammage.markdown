@@ -1,7 +1,7 @@
 ---
 layout: photo
 title:  "Patti Smith Pilgrammage"
-date:   2015-07-09
+date:   2015-04-29
 category: photography
 ---
 

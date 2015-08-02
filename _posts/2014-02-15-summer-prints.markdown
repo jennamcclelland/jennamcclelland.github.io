@@ -1,7 +1,7 @@
 ---
 layout: photo
 title: "Summer of '77"
-date: 2015-07-09
+date: 2015-02-15
 category: photography
 ---
 
