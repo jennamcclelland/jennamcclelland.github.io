@@ -3,18 +3,55 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
-        {{ page.date | date: "%b %-d, %Y" }}
-        {% for tag in page.tags %}
-            <span class="post-tag">{{ tag }}</span>
-        {% endfor %}
-    </p>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">
+            {{ page.date | date: "%b %-d, %Y" }}
+            {% for tag in page.tags %}
+                <span class="post-tag">{{ tag }}</span>
+            {% endfor %}
+        </p>
+    </header>
 
-  <article class="post-content photography">
-    {{ content }}
-  </article>
+    <article class="post-content photo-content">
+        <div class="photo-nav">
+            <span class="back">
+                back
+            </span>
+            <span class="next">
+                next
+            </span>
+        </div>
+        {{ content }}
+    </article>
 
 </div>
+
+<script>
+    var currentPhotoIndex = 0,
+        backButton = document.getElementsByClassName('back')[0],
+        nextButton = document.getElementsByClassName('next')[0],
+        photos = document.getElementsByTagName('img'),
+        numPhotos = photos.length;
+
+    function mod(n, m) {
+        return ((n % m) + m) % m;
+    }
+
+    function changePhoto(dir) {
+        var oldPhoto = photos[currentPhotoIndex];
+        currentPhotoIndex = mod((currentPhotoIndex + dir), numPhotos);
+        var newPhoto = photos[currentPhotoIndex];
+
+        oldPhoto.classList.remove("current");
+        newPhoto.classList.add("current");
+    }
+
+    backButton.addEventListener('click', function() {
+        changePhoto(-1)
+    }, false);
+    nextButton.addEventListener('click', function() {
+        changePhoto(1)
+    }, false);
+    photos[currentPhotoIndex].classList.add("current");
+</script>

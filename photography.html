@@ -9,12 +9,13 @@ permalink: /photography/
   <h1 class="page-heading">Photography</h1>
 
   <ul class="post-list">
-    {% for photo in site.categories.photography %}
+    {% for post in site.categories.photography %}
       <li>
-        <span class="post-meta">{{ photo.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h3>
-          <a class="post-link" href="{{ photo.url | prepend: site.baseurl }}">{{ photo.title }}</a>
+          <img class="post-preview" alt="{{ post.title }}"src="{{ post.preview }}">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
       </li>
     {% else %}

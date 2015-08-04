@@ -6,5 +6,28 @@ layout: default
     <img alt="Untitled" src="https://googledrive.com/host/0B9DL4N779pZbfk1mQmdZUHkzWnFNNXBEcVZLcE1mdWpuMHVyNG9MQzRfQ0R6blNvWS1PcHM/Untitled">
     <img alt="St Lawrence" src="https://googledrive.com/host/0B9DL4N779pZbfk1mQmdZUHkzWnFNNXBEcVZLcE1mdWpuMHVyNG9MQzRfQ0R6blNvWS1PcHM/St%20Lawrence">
     <img alt="The Famous Diner" src="https://googledrive.com/host/0B9DL4N779pZbfmFBWVQ3U01MbHZXemtMbzhLU3J5QjV3bWZjMndwcjFDbmZobHBGU3diUnc/The%20Famous%20Diner%20">
-
 </div>
+
+<script>
+    var currentPhotoIndex = 0,
+        photos = document.getElementsByTagName('img'),
+        numPhotos = photos.length;
+
+    function mod(n, m) {
+        return ((n % m) + m) % m;
+    }
+
+    function changePhoto(dir) {
+        var oldPhoto = photos[currentPhotoIndex];
+        currentPhotoIndex = mod((currentPhotoIndex + dir), numPhotos);
+        var newPhoto = photos[currentPhotoIndex];
+
+        oldPhoto.classList.remove("current");
+        newPhoto.classList.add("current");
+    }
+
+    photos[currentPhotoIndex].classList.add("current");
+    setInterval(function() {
+        changePhoto(1);
+    }, 5000)
+</script>

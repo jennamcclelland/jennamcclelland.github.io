@@ -3,6 +3,7 @@ layout: photo
 title: "Summer of '77"
 date: 2015-02-15
 category: photography
+preview: https://googledrive.com/host/0B9DL4N779pZbfjZRWU5xVzNfS0t6Z01yMlBNa3NoME5mTHNsdkhQbHlmU01mXzlUeXc0Mzg/1977%20Summer%20Job%20at%20Festival%20Motor%20Inn%20Chambermaid
 ---
 
 ![1977 Summer Job at Festival Motor Inn Chambermaid](https://googledrive.com/host/0B9DL4N779pZbfjZRWU5xVzNfS0t6Z01yMlBNa3NoME5mTHNsdkhQbHlmU01mXzlUeXc0Mzg/1977%20Summer%20Job%20at%20Festival%20Motor%20Inn%20Chambermaid)

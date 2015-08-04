@@ -3,6 +3,7 @@ layout: photo
 title:  "Patti Smith Pilgrammage"
 date:   2015-04-29
 category: photography
+preview: https://googledrive.com/host/0B9DL4N779pZbfmFBWVQ3U01MbHZXemtMbzhLU3J5QjV3bWZjMndwcjFDbmZobHBGU3diUnc/%22Do%20you%20know%20who%20Gertrude%20Stein%20is%3F%22%20
 ---
 
 !["Do you know who Gertrude Stein is?"](https://googledrive.com/host/0B9DL4N779pZbfmFBWVQ3U01MbHZXemtMbzhLU3J5QjV3bWZjMndwcjFDbmZobHBGU3diUnc/%22Do%20you%20know%20who%20Gertrude%20Stein%20is%3F%22%20)

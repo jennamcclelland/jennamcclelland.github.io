@@ -141,6 +141,9 @@
     display: block;
 }
 
+.post-preview {
+    max-height: 400px;
+}
 
 
 /**
@@ -160,11 +163,17 @@
 /**
  * Pages
  */
+
 .home {
     margin: $spacing-unit 0;
 
     img {
         margin-bottom: $spacing-unit;
+        display: none;
+
+        &.current {
+            display: block;
+        }
     }
 }
 
@@ -191,12 +200,22 @@
     text-align: center;
 }
 
-.photography {
+.photo-content {
+    .photo-nav {
+        color: $brand-color;
+        text-align: right;
+        span {
+            cursor: pointer;
+        }
+    }
     p {
-        padding: $spacing-unit 0;
-
         img {
             margin-bottom: $spacing-unit/2;
+            display: none;
+
+            &.current {
+                display: block;
+            }
         }
     }
 }
