@@ -169,6 +169,8 @@
 
     img {
         margin-bottom: $spacing-unit;
+        max-height: 700px;
+        margin: 0 auto;
         display: none;
 
         &.current {
@@ -211,6 +213,8 @@
     p {
         img {
             margin-bottom: $spacing-unit/2;
+            max-height: 700px;
+            margin: 0 auto;
             display: none;
 
             &.current {
